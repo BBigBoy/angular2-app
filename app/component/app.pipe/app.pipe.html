@@ -1,0 +1,3 @@
+<p>The hero's birthday is {{ birthday | date:format | lowercase }}</p>
+<button (click)="toggleFormat()">Toggle Format</button>
+<p>Date to timestamp : {{birthday | timestamp:'not-milli':'milli'}}</p>
